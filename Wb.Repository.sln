@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{960B4BF0-63D4-4A0F-9809-9C539ACBFFA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{07F2D0F1-2544-46BF-8CB3-2BC4B462F7AA}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EFRepository", "src\EFRepository\EFRepository.xproj", "{204A7F34-1B4B-4860-A9DF-C6F30F606D41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{1C106FCF-F4F1-444C-A553-839D5FA21C6A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Repository", "src\Repository\Repository.xproj", "{2DC372E1-4F78-4774-920B-1DFEDAB303C4}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EFRepository.Example", "src\EFRepository.Example\EFRepository.Example.xproj", "{142098FA-5041-431E-BD58-2F6F32E9E372}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DapperRepository.Example", "DapperRepository.Example\DapperRepository.Example.xproj", "{863A5EE2-A23E-4A46-BB82-23FE0A906EFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{204A7F34-1B4B-4860-A9DF-C6F30F606D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204A7F34-1B4B-4860-A9DF-C6F30F606D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204A7F34-1B4B-4860-A9DF-C6F30F606D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204A7F34-1B4B-4860-A9DF-C6F30F606D41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC372E1-4F78-4774-920B-1DFEDAB303C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC372E1-4F78-4774-920B-1DFEDAB303C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC372E1-4F78-4774-920B-1DFEDAB303C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC372E1-4F78-4774-920B-1DFEDAB303C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142098FA-5041-431E-BD58-2F6F32E9E372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142098FA-5041-431E-BD58-2F6F32E9E372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142098FA-5041-431E-BD58-2F6F32E9E372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142098FA-5041-431E-BD58-2F6F32E9E372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863A5EE2-A23E-4A46-BB82-23FE0A906EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863A5EE2-A23E-4A46-BB82-23FE0A906EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863A5EE2-A23E-4A46-BB82-23FE0A906EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863A5EE2-A23E-4A46-BB82-23FE0A906EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{204A7F34-1B4B-4860-A9DF-C6F30F606D41} = {960B4BF0-63D4-4A0F-9809-9C539ACBFFA4}
+		{2DC372E1-4F78-4774-920B-1DFEDAB303C4} = {960B4BF0-63D4-4A0F-9809-9C539ACBFFA4}
+		{142098FA-5041-431E-BD58-2F6F32E9E372} = {1C106FCF-F4F1-444C-A553-839D5FA21C6A}
+		{863A5EE2-A23E-4A46-BB82-23FE0A906EFE} = {1C106FCF-F4F1-444C-A553-839D5FA21C6A}
+	EndGlobalSection
+EndGlobal
