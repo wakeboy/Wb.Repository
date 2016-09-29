@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NhibernateRepository")]
+[assembly: AssemblyProduct("DapperRepository")]
 [assembly: AssemblyTrademark("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -16,4 +16,4 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("cecaaaeb-4800-4ef7-9b9f-efeea4c617e2")]
+[assembly: Guid("91ecb2a3-b258-4783-8258-ec5455bb8e71")]

@@ -7,8 +7,8 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>cecaaaeb-4800-4ef7-9b9f-efeea4c617e2</ProjectGuid>
-    <RootNamespace>NhibernateRepository</RootNamespace>
+    <ProjectGuid>91ecb2a3-b258-4783-8258-ec5455bb8e71</ProjectGuid>
+    <RootNamespace>DapperRepository</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>

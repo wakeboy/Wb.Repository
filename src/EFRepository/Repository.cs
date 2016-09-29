@@ -7,8 +7,6 @@ namespace Wb.Repository.EFRepository
 {
     public abstract class Repository<TEntity, TId> : IRepository<TEntity, TId> where TEntity : EFEntity<TId>, IDisposable
     {
-        private bool disposed = false;
-
         protected readonly DbContext context;
 
         public Repository(EFDbContext<TEntity, TId> context)
@@ -52,6 +50,8 @@ namespace Wb.Repository.EFRepository
         {
             this.context.Set<TEntity>().Update(entity);
         }
+
+        private bool disposed = false;
 
         protected virtual void Dispose(bool disposing)
         {

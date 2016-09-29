@@ -1,11 +1,10 @@
-﻿{
+{
   "version": "1.0.0-*",
-  "buildOptions": {
-    "emitEntryPoint": true
-  },
 
   "dependencies": {
-    "Microsoft.NETCore.App": "1.0.1"
+    "Dapper": "1.50.2",
+    "Microsoft.NETCore.App": "1.0.1",
+    "Repository": "1.0.0-*"
   },
 
   "frameworks": {
